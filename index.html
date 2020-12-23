@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 	<link href="./favicon.ico" type="image/x-icon" rel="shortcut icon">
+	<title>Recipes App</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="mobile-container">
+		<header>
+			<input type="text" id="search-term">
+			<button id="search"><i class="fas fa-search"></i></button>
+		</header>
+		<div class="fav-container">
+			<h3>Favourite Meals</h3>
+			<ul class="fav-noils" id="fav-noils"></ul>
+		</div>
+		<div class="neals" id="meals"></div>
+	</div>
+	<div class="popup-container hidden" id="meal-popup">	
+		<div class="popup">
+					<button class="close-popup" id="popup">
+						<i class="fas fa-times"></i>
+					</button>
+			<div class="meal-info" id="meal-info">
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="copyright">
+		<p>© 2020 Vladimir Zaeb. All rights reserved.</p>
+	</div>
+
+	<script src="https://kit.fontawesome.com/7438528e75.js" crossorigin="anonymous"></script>
+	<script src="./script.js"></script>
+</body>
+</html>
